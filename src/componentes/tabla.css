@@ -1,0 +1,104 @@
+.icons{
+  padding-left: 30px;
+  font-size: 50px;
+}
+
+
+.text{
+  font-size: 20px;
+  font-family:serif;
+}
+
+.morning{
+  background-color: rgb(224, 137, 162);
+}
+
+.noon{
+  background-color:#ffea76;
+}
+
+.evening{
+  background-color: rgb(145, 221, 221);
+}
+
+.night{
+  background-color: rgb(223, 162, 227);
+}
+
+.only{
+  background-color: rgb(167, 237, 161);
+}
+
+.title{
+  font-size: 100px;
+  font-display: flex;
+  color: rgb(54, 214, 185);
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+
+.table-style{
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  margin-bottom: 10px;
+  /* margin-left: 500px; */
+  
+}
+.column{
+  /* padding-left: 50px; */
+  height: 50px;
+  
+}
+
+.celda {
+  height: 50px;
+  width: 200px;
+  
+
+}
+
+.columan-fija{
+  width: 200px;
+}
+
+.color{
+  background-color: rgb(247, 243, 169);
+}
+.scroll-row {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: block;
+}
+
+
+/* Estilos para filas pares e impares de la categoría "Morning" */
+.Morning tbody tr:nth-of-type(odd) {
+  background-color: #FBBCBC; /* Color de fondo para filas impares */
+}
+
+.Morning tbody tr:nth-of-type(even) {
+  background-color: #FBD9D9; /* Color de fondo para filas pares */
+}
+
+/* Otros estilos que quieras aplicar a tu tabla */
+.table-style {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Estilos para las celdas */
+.celda {
+  border: 1px solid #000; /* Borde para las celdas */
+  padding: 8px; /* Espaciado interno */
+}
+
+/* Estilos para el botón "TomarPastilla" */
+.TomarPastilla {
+  /* Agrega tus estilos para el botón aquí */
+}
+
+/* Otros estilos necesarios para tu diseño */
+/* ... */
